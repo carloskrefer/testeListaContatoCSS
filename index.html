@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: aqua;
+            display: flex;
+            height: 100vh;
+            min-height: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        section.container {
+            width: fit-content;
+            text-align: center;
+        }
+
+        ul.lista_contatos {
+            border: 1px solid black;
+            height: 300px;
+            width: 400px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            border: 1px solid black;
+        }
+
+        figure {
+            display:flex;
+            justify-content: flex-start;
+
+        }
+
+        img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1>Lista de contatos</h1>
+        </header>
+        <ul class="lista_contatos">
+            <li>
+                <figure>
+                    <img src="user.jpg" alt="Foto do rosto de Brennan George">
+                    <figcaption>
+                        <h2>Clarence Fernandez</h2>
+                        <p>clarence.fernandez@example.com</p>   
+                    </figcaption>
+                </figure>     
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
